@@ -1,0 +1,18 @@
+{
+  "name": "ws-up-client",
+  "version": "0.1.0",
+  "description": "Client for WsUp",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "npm:publish": "npm publish --registry http://192.168.50.80:4873"
+  },
+  "author": "Artem Osipenko",
+  "license": "ISC",
+  "dependencies": {
+    "ws-up": "^0.3.5"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10"
+  }
+}
